@@ -9,3 +9,5 @@
 .row-action:hover{background:#edf4fc;color:#315f94}.switch input:checked+span{background:#4c83bd}
 .auth-art .eyebrow{color:#a9c9ee}.auth-art .art-copy h1 em{color:#abd2ff}.note-dot{background:#abd2ff}
 .help-card{background:#203a5b;border-color:#334f72}.help-spark,.help-card button{color:#abd2ff}
+
+.brand-text{display:flex;flex-direction:column;gap:2px;line-height:1;letter-spacing:0}.brand-text strong{font:800 18px Manrope,sans-serif;letter-spacing:1.2px}.brand .brand-small{font:700 7px 'DM Sans',sans-serif;letter-spacing:.9px;margin:0;color:#a9c9ee}.mobile-brand .brand-text strong{font-size:20px}.mobile-brand .brand-small{color:#6e89a7}

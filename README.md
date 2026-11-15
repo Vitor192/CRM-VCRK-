@@ -1,4 +1,4 @@
-# Raiz CRM
+# VCRK Soluções Digitais — CRM
 
 CRM web em português para organizar contatos, motivos de contato e retornos. Os dados ficam no Supabase, então entram na sua conta de qualquer computador com internet. Para ver a mesma lista, use o mesmo e-mail e senha em todos os dispositivos.
 
