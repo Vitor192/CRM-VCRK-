@@ -1,0 +1,11 @@
+:root{--forest:#142744;--forest2:#1d3e69;--green:#3476bd;--lime:#abd2ff;--line:#e7edf4;--canvas:#f6f8fb}
+.workspace-icon,.avatar{background:#d6eaff;color:#244d7c}
+.nav-icon{color:#a9c9ee}.nav-item:hover,.nav-item.active{background:#203b5b}.nav-item.active{box-shadow:inset 2px 0 #abd2ff}.nav-count{background:#334b69;color:#d7e9fc}
+.stat-icon.green,.person-avatar,.empty-icon,.schedule-icon{background:#e7f0fa;color:#3977b7}
+.return-date{background:#eaf2fb;color:#3978bd}.return-date span{color:#3978bd}.date-cell,.phone-link{color:#3b77b7}
+.link-button{color:#3476bd}.source-panel{background:#edf4fc;border-color:#dce8f7}.source-panel>.eyebrow{color:#527fb3}.source-panel h2{color:#283d57}.source-panel>p{color:#71839b}
+.flow div{color:#61758d}.flow i{border-color:#dbe7f4;color:#3e78b4}.flow>b{color:#9bb1ca}
+.calendar-day:hover{background:#edf4fc}.calendar-day.is-today:not(.selected){box-shadow:inset 0 0 0 1px #78a7db;color:#3476bd}.calendar-day i{background:#70a6df}
+.row-action:hover{background:#edf4fc;color:#315f94}.switch input:checked+span{background:#4c83bd}
+.auth-art .eyebrow{color:#a9c9ee}.auth-art .art-copy h1 em{color:#abd2ff}.note-dot{background:#abd2ff}
+.help-card{background:#203a5b;border-color:#334f72}.help-spark,.help-card button{color:#abd2ff}

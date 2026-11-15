@@ -14,7 +14,7 @@ O cadastro pode estar sujeito à confirmação de e-mail, conforme a configuraç
 
 ## Contatos do Maps Scraper
 
-Em **Contatos** ou na página inicial, escolha **Importar CSV**. O CSV precisa ter cabeçalho e uma coluna que identifique o nome, como `name`, `nome`, `estabelecimento` ou `business name`. Telefone é opcional (`phone`, `telefone`, `fone`); também são reconhecidos `motivo`/`reason` e `origem`/`source`. Arquivos separados por vírgula, ponto e vírgula ou tabulação são aceitos. Contatos importados recebem a origem “Maps Scraper” quando o arquivo não tiver uma coluna de origem.
+Em **Contatos** ou na página inicial, escolha **Importar contatos** e selecione um arquivo CSV, XLSX, XLS ou JSON exportado pelo Maps Scraper. CSV separados por vírgula, ponto e vírgula ou tabulação são aceitos. O arquivo precisa ter uma coluna com nome do estabelecimento (por exemplo `name`, `title`, `business name`, `nome` ou `estabelecimento`); telefone é opcional (`phone`, `phone number`, `telefone`, `mobile`). Também são reconhecidos `motivo`/`reason` e `origem`/`source`. Para Excel, é lida a primeira planilha. Contatos importados recebem a origem “Maps Scraper” quando o arquivo não tiver uma coluna de origem.
 
 Exemplo:
 
@@ -25,3 +25,8 @@ Studio Verde,(11) 98888-7777
 ```
 
 O sistema mantém contatos e horários na nuvem; não há armazenamento local de contatos no navegador. A agenda usa o fuso horário do dispositivo que está aberto.
+
+## Publicação
+
+O workflow em .github/workflows/deploy.yml publica automaticamente o site no GitHub Pages sempre que uma alteração é enviada para main. No primeiro uso, o repositório precisa estar com Pages configurado para usar GitHub Actions (Settings → Pages → Source).
+
