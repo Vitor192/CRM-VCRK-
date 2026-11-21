@@ -26,6 +26,10 @@ Studio Verde,(11) 98888-7777
 
 O sistema mantém contatos e horários na nuvem; não há armazenamento local de contatos no navegador. A agenda usa o fuso horário do dispositivo que está aberto.
 
+## Atendimentos por cliente
+
+Clique no nome do cliente na lista para abrir o histórico. Cada registro salva o motivo, a observação e, quando marcado, data e horário do próximo retorno. A tabela de histórico é protegida por RLS e vinculada ao dono do contato. Para atualizar um Supabase já conectado, execute uma vez o conteúdo de `supabase-attendance.sql` no SQL Editor antes de usar o novo formulário.
+
 ## Publicação
 
 O workflow em .github/workflows/deploy.yml publica automaticamente o site no GitHub Pages sempre que uma alteração é enviada para main. No primeiro uso, o repositório precisa estar com Pages configurado para usar GitHub Actions (Settings → Pages → Source).
