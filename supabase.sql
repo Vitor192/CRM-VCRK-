@@ -6,6 +6,9 @@ create table if not exists public.contacts (
   phone text not null default '',
   reason text not null default '',
   source text not null default '',
+  city text not null default '',
+  country text not null default '',
+  website text not null default '',
   return_at timestamptz,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()

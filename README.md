@@ -14,7 +14,9 @@ O cadastro pode estar sujeito à confirmação de e-mail, conforme a configuraç
 
 ## Contatos do Maps Scraper
 
-Em **Contatos** ou na página inicial, escolha **Importar contatos** e selecione um arquivo CSV, XLSX, XLS ou JSON exportado pelo Maps Scraper. CSV separados por vírgula, ponto e vírgula ou tabulação são aceitos. O arquivo precisa ter uma coluna com nome do estabelecimento (por exemplo `name`, `title`, `business name`, `nome` ou `estabelecimento`); telefone é opcional (`phone`, `phone number`, `telefone`, `mobile`). Também são reconhecidos `motivo`/`reason` e `origem`/`source`. Para Excel, é lida a primeira planilha. Contatos importados recebem a origem “Maps Scraper” quando o arquivo não tiver uma coluna de origem.
+Em **Contatos** ou na página inicial, escolha **Importar contatos** e selecione um arquivo CSV, XLSX, XLS ou JSON exportado pelo Maps Scraper. CSV separados por vírgula, ponto e vírgula ou tabulação são aceitos. O arquivo precisa ter uma coluna com nome do estabelecimento (por exemplo `name`, `title`, `business name`, `nome` ou `estabelecimento`); telefone é opcional (`phone`, `phone number`, `telefone`, `mobile`). Também são reconhecidos cidade (`city`, `cidade`), país (`country`, `pais`), site (`website`, `website url`, `site`), `motivo`/`reason` e `origem`/`source`. Para Excel, é lida a primeira planilha. Contatos importados recebem a origem “Maps Scraper” quando o arquivo não tiver uma coluna de origem.
+
+Na lista de contatos, filtre por cidade e país. **Somente sem site** vem marcado por padrão e oculta estabelecimentos que têm site; desmarque para mostrar também esses registros. Os estabelecimentos sem site aparecem com o selo vermelho **SEM SITE**. Para habilitar os campos novos em um projeto Supabase já conectado, execute `supabase-maps-filters.sql` no SQL Editor. Os registros com site não são apagados do banco.
 
 Exemplo:
 
