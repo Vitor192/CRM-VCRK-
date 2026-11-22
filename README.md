@@ -18,6 +18,8 @@ Em **Contatos** ou na página inicial, escolha **Importar contatos** e selecione
 
 Na lista de contatos, filtre por cidade e país. **Somente sem site** vem marcado por padrão e oculta estabelecimentos que têm site; desmarque para mostrar também esses registros. Os estabelecimentos sem site aparecem com o selo vermelho **SEM SITE**. Para habilitar os campos novos em um projeto Supabase já conectado, execute `supabase-maps-filters.sql` no SQL Editor. Os registros com site não são apagados do banco.
 
+O CRM compara telefones normalizados ao salvar e importar contatos. Para aplicar a mesma proteção a todas as gravações no Supabase, execute `supabase-unique-phones.sql` no SQL Editor.
+
 Exemplo:
 
 ```csv
